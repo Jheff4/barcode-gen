@@ -1,15 +1,15 @@
-const form = document.getElementById('form-generate')
-const qr = document.getElementById('qrcode')
+const form = document.getElementById('form-generate');
+const qr = document.getElementById('qrcode');
 
 
 const onGenerateSubmit = (e) => {
-  e.preventDefault()
+  e.preventDefault();
 
-  const url = document.getElementById('url')
-  const size = document.getElementById('size')
+  const url = document.getElementById('url').value;
+  const size = document.getElementById('size').value;
 
-  console.log(url, size)
-}
+  console.log(url, size);
+};
 
-form.addEventListener('submit', onGenerateSubmit)
+form.addEventListener('submit', onGenerateSubmit);
 
