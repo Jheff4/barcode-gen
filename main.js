@@ -1,4 +1,4 @@
-const form = document.getElementById('form-generate');
+const form = document.getElementById('generate-form');
 const qr = document.getElementById('qrcode');
 
 
