@@ -3,6 +3,9 @@ const qr = document.getElementById('qrcode')
 
 
 const onGenerateSubmit = (e) => {
+  e.preventDefault()
+
+  const url = document.getElementById('url');
   
 }
 
