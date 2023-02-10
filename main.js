@@ -7,6 +7,7 @@ const onGenerateSubmit = (e) => {
 
   const url = document.getElementById('url').value;
   const size = document.getElementById('size').value;
+  const spinner = document.getElementById('spin')
 
   if (url === '') {
     alert('Please, enter a URL');
@@ -17,7 +18,10 @@ const onGenerateSubmit = (e) => {
 };
 
 const showSpinner = () => {
-  document.getElementById('spinner').style.display = "block";
+  const spin = document.createElement('div')
+  spin.classList.add('spinner')
+  
+  .style.display = "block";
 }
 
 const hideSpinner = () => {

@@ -17,7 +17,7 @@ body {
 }
 
 /* Loading animation */
-.loader {
+.spinner {
   border: 5px solid #d3d2d2;
   border-radius: 50%;
   border-top: 5px solid #262626;
