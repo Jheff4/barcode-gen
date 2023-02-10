@@ -28,4 +28,3 @@ const showSpinner = () => {
 // hideSpinner();
 
 form.addEventListener('submit', onGenerateSubmit);
-
